@@ -31,7 +31,7 @@ export default function Home() {
 
   
   const [typedText, setTypedText] = useState("");
-  const fullText = "Hello, I&aposm Raveen Adhikari. Welcome to my terminal.";
+  const fullText = "Hello, I'm Raveen Adhikari. Welcome to my terminal.";
   const [activeSection, setActiveSection] = useState("home");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for mobile menu
   const [isModalOpen, setIsModalOpen] = useState(false);

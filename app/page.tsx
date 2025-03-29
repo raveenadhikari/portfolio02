@@ -1,12 +1,11 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
-import Image from "next/image"; // Keep if you plan to add images later
+//import Image from "next/image"; // Keep if you plan to add images later
 import ProjectModal from "./src/components/ProjectModal";
 import {projectsData} from "./projectsData"; // Import your projects data
 import {
   FaReact, FaPhp, FaNodeJs, FaDatabase, FaMobileAlt, FaGitAlt,
-  FaDocker, FaLinux, FaAws, FaJsSquare, FaPython, FaTerminal,
-  FaUnity, FaRobot, FaMicrochip
+  FaDocker, FaLinux, FaAws, FaJsSquare, FaPython, FaTerminal, FaRobot, FaMicrochip
 } from 'react-icons/fa';
 import { SiCplusplus, SiSharp, SiTailwindcss, SiLaravel, SiMongodb } from "react-icons/si";
 
@@ -32,7 +31,7 @@ export default function Home() {
 
   
   const [typedText, setTypedText] = useState("");
-  const fullText = "Hello, I'm Raveen Adhikari. Welcome to my terminal.";
+  const fullText = "Hello, I&aposm Raveen Adhikari. Welcome to my terminal.";
   const [activeSection, setActiveSection] = useState("home");
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false); // State for mobile menu
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -337,13 +336,13 @@ export default function Home() {
           <div>
             {/* Adjusted paragraph spacing */}
             <p className="mb-4">
-              I'm a multidisciplinary developer with expertise spanning web, mobile, and embedded systems development.
+              I&apos;m a multidisciplinary developer with expertise spanning web, mobile, and embedded systems development.
               My journey began with a fascination for electronics and robotics, but quickly expanded to encompass
               the entire technology stack.
             </p>
             <p className="mb-4">
               My approach to technology is driven by curiosity and adaptability. I believe in picking the right tool
-              for each job, whether it's Laravel for web backends, React for interactive UIs, or C for embedded systems.
+              for each job, whether it&apos;s Laravel for web backends, React for interactive UIs, or C for embedded systems.
             </p>
             <p>
               I believe that continuous learning is the foundation of success in tech. Every new language or framework
@@ -406,7 +405,7 @@ export default function Home() {
   <h2 className="text-xl sm:text-2xl mb-6 border-b border-green-700 pb-2">
     {/* Use a terminal-like icon */}
     <FaTerminal className="inline-block mr-2 align-baseline" />
-    $ stat --format="%A %n" ./skills/*
+    $ stat --format=&quot;%A %n&quot; ./skills/*
   </h2>
 
   {/* Grid layout */}
@@ -640,7 +639,7 @@ echo "✓ Mentorship"`}
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-2 md:space-y-0">
           <p>© {new Date().getFullYear()} [Your Name] | Built w/ Next.js & Tailwind</p>
           <p>
-            $ echo "Learn anything, build everything."
+            $ echo &quot;Learn anything, build everything.&quot;
           </p>
         </div>
       </footer>

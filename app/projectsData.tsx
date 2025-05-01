@@ -7,9 +7,7 @@ export const projectsData = [
       longDescription: "A full featured Lab Inventory management site built with Codeigniter(PHP) and MySQL as backend database. It includes user authentication, role based permissions , comprahensive admin-dashboard, easily add components using CSV files and also a QR code feature to students for look for components in the university easily.",
       technologies: ["Codeigniter", "MySQL", "Fast API", "CSS"],
       images: [ // Add paths to your images (place them in the /public folder)
-        '/images/projects/ecommerce-1.jpg',
-        '/images/projects/ecommerce-2.jpg',
-        '/images/projects/ecommerce-3.jpg',
+        
       ],
       links: {
         github: 'https://github.com/raveenadhikari/Lab-Inventory_system', // Replace with actual link
@@ -38,9 +36,7 @@ export const projectsData = [
       longDescription: "An autonomous inspection robot designed to navigate and inspect a given area. It utilizes advanced sensors and algorithms to map its environment, detect obstacles, and perform inspections autonomously. The robot is equipped with a camera for real-time monitoring and recognizing cracks and objects with computer vision and can be controlled remotely via a web interface. This project showcases my skills in robotics, computer vision, and remote control systems.",
       technologies: ["ESP-32/C++", "Python", "OpenCV", "Flask"],
       images: [
-        '/images/projects/robot-1.jpg',
-        '/images/projects/robot-2.jpg',
-        '/images/projects/robot-3.jpg',
+        //images/projects/inspection-robot-1.jpg',
       ],
       links: {
         github: 'https://github.com/raveenadhikari/Autonomous-Inspection-Robot',
@@ -54,8 +50,8 @@ export const projectsData = [
       longDescription: "A smart home power monitoring system that tracks energy consumption and provides real-time data to users. The system uses IoT technology to monitor power usage in different appliances and sends alerts for unusual consumption patterns. Users can access the data through a web interface, allowing them to make informed decisions about their energy usage. This project demonstrates my skills in IoT development, data analysis, and user interface design.",
       technologies: ["Atmega 328","C", "Python", "Flask"],
       images: [
-        '/images/projects/power-monitoring-1.jpg',
-        '/images/projects/power-monitoring-2.jpg',],
+        //images/projects/smart-home-1.jpg',],
+      ],
       links: {
         github: 'https://github.com/raveenadhikari/Smart-Energy_Meter',
         demo: '#', // Replace with actual link

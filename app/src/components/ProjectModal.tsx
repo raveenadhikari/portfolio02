@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image'; // Use Next.js Image for optimization
+//import Image from 'next/image'; // Use Next.js Image for optimization
 import { FaTimes, FaGithub, FaExternalLinkAlt } from 'react-icons/fa'; // Icons
 
 // Define the props type based on the Project type in page.tsx

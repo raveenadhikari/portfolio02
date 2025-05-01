@@ -63,15 +63,17 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
         {/* Image Carousel/Grid (Simple Example) */}
         {project.images && project.images.length > 0 && (
           <div className="mb-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {project.images.map((imgSrc, index) => (
-              <div key={index} className="relative aspect-video border border-zinc-700 rounded overflow-hidden">
-                 {/* Use next/image - ensure domain is configured if using external URLs */}
-                <Image
-                  src={imgSrc}
-                  alt={`${project.title} screenshot ${index + 1}`}
-                  layout="fill" // Or fixed/intrinsic/responsive depending on need
-                  objectFit="cover" // Or contain
-                  className="bg-zinc-800" // Placeholder background
+            {project.images.map((img, i) => (
+              <div
+                key={i}
+                className="w-full flex items-center justify-center bg-zinc-900 rounded mb-4"
+                style={{ minHeight: 200 }}
+              >
+                <img
+                  src={img}
+                  alt={`Screenshot ${i + 1}`}
+                  className="rounded object-contain max-w-full max-h-[70vh] shadow-lg"
+                  style={{ background: "#18181b" }}
                 />
               </div>
             ))}

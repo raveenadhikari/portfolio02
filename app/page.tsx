@@ -637,7 +637,7 @@ echo "✓ Mentorship"`}
       <footer className="mt-20 md:mt-24 pt-6 pb-8 border-t border-green-700 text-sm text-green-300">
          {/* Flex layout for alignment, stacks vertically on mobile */}
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-2 md:space-y-0">
-          <p>© {new Date().getFullYear()} [Your Name] | Built w/ Next.js & Tailwind</p>
+          <p>© {new Date().getFullYear()} [Raveen Adhikari] | Built w/ Next.js & Tailwind</p>
           <p>
             $ echo &quot;Learn anything, build everything.&quot;
           </p>

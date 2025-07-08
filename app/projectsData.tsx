@@ -57,6 +57,23 @@ export const projectsData = [
         demo: '#', // Replace with actual link
         
       }
-  }
+  },
+  {
+      id: 'Library-Management-System',
+      title: "Library Management System",
+      shortDescription: "A digitalized library management system for efficient book tracking...",
+      longDescription: "A digitalized library management system designed to streamline book tracking and management. The system allows users to search for books, check availability, and manage their borrowing history. It includes features for librarians to add new books, manage user accounts, and generate reports on book usage. This project showcases my skills in database management, user interface design, and software development.",
+      technologies: ["React.js","ASP.NET", "JWT Auth", "SQLite"],
+      images: [
+        //images/projects/smart-home-1.jpg',],
+      ],
+      links: {
+        github: 'https://github.com/raveenadhikari/Libarary-Management-System',
+        demo: '#', // Replace with actual link
+        
+      }
+  },
+  
+  
     // ... add detailed data for all your other projects
   ];
